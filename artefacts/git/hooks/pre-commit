@@ -165,7 +165,7 @@ function check_new_pdi_files_meet_naming_convention {
     echo -e " - tr_filename.ktr"
     echo -e " - jb_filename.kjb\e[39m"
     echo -e "\e[93mThe following filename(s) do not meet filename conventions:\e[39m"
-    echo -e "${UNACCPETABLE_NEW_PDI_FILES}\n"
+    echo -e "${UNACCEPTABLE_PDI_FILES}\n"
     STAT=1
   else
     print_passed ${TEST_NAME}
