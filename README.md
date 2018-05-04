@@ -53,7 +53,7 @@ with the very basic folder structure and required artifacts. The script enables 
 | `pentaho-server/metadata`	| pentaho metadata models  
 | `pentaho-server/mondrian`	| mondrian cube definitions  
 | `pentaho-server/repo`	| contains export from pentaho server repo  
-| `pentaho-server/prd`	| perntaho report files  
+| `pentaho-server/prd`	| pentaho report files  
 | `shell-scripts`	| any shell-scripts that don't hold configuration specific instructions  
 
 > **Note**: Data, like lookup tables, must not be stored with the code. For development and unit testing they can be stored in the `config` git repo's `test-data` folder. But in prod it must reside outside any git repo if it is the only source available.
