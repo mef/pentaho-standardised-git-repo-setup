@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# ========== ORGANISATION SPECFIC CONFIGURATION PROPERTIES =========== #
+# ========== ORGANISATION SPECIFIC CONFIGURATION PROPERTIES =========== #
 
-## ~~~~~~~~~~~~~~~~~ AMEND FOR YOUR ORANGISATION ~~~~~~~~~~~~~~~~~~~~~##
+## ~~~~~~~~~~~~~~~~~ AMEND FOR YOUR ORGANISATION ~~~~~~~~~~~~~~~~~~~~~##
 ##                      ______________________                        ##
 # The SSH or HTTPS URL to clone the modules repo
 export PSGRS_MODULES_GIT_REPO_URL=git@github.com:diethardsteiner/pentaho-pdi-modules.git
@@ -29,7 +29,7 @@ export PSGRS_GIT_CONFIG_REPO_ACCEPTED_FILE_EXTENSIONS_REGEX="gitignore$|md$|prop
 # regex specifying the accepted git branch names
 export PSGRS_GIT_REPO_ACCEPTED_BRANCH_NAMES_REGEX="^master$|^dev$|^feature\_.+|^release\_.+|^hotfix\_.+"
 # regex specfying any words that should not show up in file and folder names
-export PSGRS_FILE_OR_FOLDER_NAME_FORBIDDEN_KEYWORD="(dev|test|beta|new|v[0-9]{1})"
+export PSGRS_FILE_OR_FOLDER_NAME_FORBIDDEN_KEYWORD="(dev|test|beta|new|old|v[0-9]{1})"
 # regex specifying the accepted pdi parameter or variable name
 export PSGRS_PDI_ACCEPTED_PARAMETER_OR_VARIABLE_NAME="(^(VAR\_|PROP\_|PARAM\_)[A-Z0-9\_]+|^(Internal|awt|embedded|felix|file|https|java|karaf|log4j|org|sun|user|vfs)[a-zA-Z\.]+)"
 # regex specifying the accepted pdi job and transformation name

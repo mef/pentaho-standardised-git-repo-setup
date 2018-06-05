@@ -15,7 +15,7 @@ declare -i STAT=0
 
 # color scales: http://misc.flogisoft.com/bash/tip_colors_and_formatting
 
-# utiltiy functions
+# utility functions
 function print_header {
   echo -e "\e[34m\e[47mRunning $@ Test\e[0m"
 }
